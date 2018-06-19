@@ -1,0 +1,5 @@
+Failed to load any agent model. Running Rasa Core server with out loaded model now. [Errno 2] No such file or directory: 'models/dialogue\\policy_metadata.json'
+C:\Users\IP 320 7DIN\AppData\Local\Programs\Python\Python36\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Failed to load any agent model. Running Rasa Core server with out loaded model now. [Errno 2] No such file or directory: 'models/dialogue\\policy_metadata.json'

@@ -1,0 +1,17 @@
+{
+  "states": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_thank_you",
+    "intent_about",
+    "intent_upcoming",
+    "intent_join",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_about",
+    "prev_utter_join",
+    "prev_utter_upcoming",
+    "prev_utter_goodbye"
+  ]
+}

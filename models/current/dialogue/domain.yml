@@ -1,0 +1,43 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_about
+- utter_join
+- utter_upcoming
+- utter_goodbye
+actions:
+- utter_greet
+- utter_about
+- utter_join
+- utter_upcoming
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet
+- goodbye
+- thank_you
+- about
+- upcoming
+- join
+slots: {}
+templates:
+  utter_about:
+  - text: about
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - buttons:
+    - payload: About us
+      title: About us
+    - payload: Join ImbueDesk
+      title: Join ImbueDesk
+    - payload: Upcoming Workshops
+      title: Upcoming Workshops
+    text: Hey! This is ImbueBot. How may I help U ?
+  utter_join:
+  - text: join
+  utter_upcoming:
+  - text: upcoming
+topics: []

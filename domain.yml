@@ -1,0 +1,37 @@
+intents:
+  - greet
+  - goodbye
+  - thank_you
+  - about
+  - upcoming
+  - join
+
+actions:
+- utter_greet
+- utter_about
+- utter_join
+- utter_upcoming
+- utter_goodbye
+
+templates:
+  utter_greet:
+  - text: "Hey! This is ImbueBot. How may I help U ?"
+    buttons:
+    - title: "About us"
+      payload: "About us"
+    - title: "Join ImbueDesk"
+      payload: "Join ImbueDesk"
+    - title: "Upcoming Workshops"
+      payload: "Upcoming Workshops"
+
+  utter_about:
+  - text: "about"
+
+  utter_join:
+  - text: "join"
+
+  utter_upcoming:
+  - text: "upcoming"
+
+  utter_goodbye:
+  - text: "Bye"
